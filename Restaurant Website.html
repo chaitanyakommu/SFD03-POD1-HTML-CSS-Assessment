@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!-- saved from url=(0057)https://jolly-kalam-23776e.netlify.app/restaurantwebsite/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./Restaurant Website_files/style.css">
+  <link rel="stylesheet" href="./Restaurant Website_files/style(1).css">
+  <title>Responsive Website!</title>
+</head>
+
+<body>
+
+  <div class="wrapper">
+      <nav class="menu">
+          <button aria-expanded="false" aria-controls="menu-list">
+            <span class="open">☰</span>
+            <span class="close">×</span>
+            Menu
+          </button>
+          <ul id="menu-list">
+            <li>
+              <a href="https://jolly-kalam-23776e.netlify.app/restaurantwebsite/">Tacos</a>
+            </li>
+            <li>
+              <a href="https://jolly-kalam-23776e.netlify.app/restaurantwebsite/">Beers</a>
+            </li>
+            <li>
+              <a href="https://jolly-kalam-23776e.netlify.app/restaurantwebsite/">Wines</a>
+            </li>
+            <li>
+              <a href="https://jolly-kalam-23776e.netlify.app/restaurantwebsite/">Desserts</a>
+            </li>
+            <li>
+              <a href="https://jolly-kalam-23776e.netlify.app/restaurantwebsite/">Reservations</a>
+            </li>
+          </ul>
+        </nav>
+    <div class="top">
+      <header class="hero">
+        <h1>Terry's Taco Joint</h1>
+        <p>Pretty Good Tacos!</p>
+      </header>
+      <div class="cta cta1">
+        <p class="price">$1.99</p>
+        <p>Tacos</p>
+      </div>
+      <div class="cta cta2">
+        <p class="price">$3.99</p>
+        <p>Kombucha</p>
+      </div>
+
+    </div>
+
+    <section class="features">
+      <div class="feature">
+        <span class="icon">🌮</span>
+        <h3>Tacos</h3>
+        <p>The pain itself is important to the main adipisicing elite. For fun, to be accepted.</p>
+      </div>
+      <div class="feature">
+        <span class="icon">🍺</span>
+        <h3>Beer</h3>
+        <p>The pain itself is important to the main adipisicing elite. For fun, to be accepted.</p>
+      </div>
+      <div class="feature">
+        <span class="icon">🍷</span>
+        <h3>Wine</h3>
+        <p>The pain itself is important to the main adipisicing elite. For fun, to be accepted.</p>
+      </div>
+      <div class="feature">
+        <span class="icon">🎵</span>
+        <h3>Music</h3>
+        <p>The pain itself is important to the main adipisicing elite. For fun, to be accepted.</p>
+      </div>
+    </section>
+
+    <section class="about">
+      <img src="./Responsive Website!_files/queso-taco.png" alt="Yummy Taco" class="about__mockup">
+      <div class="about__details">
+        <h2>Featured Taco</h2>
+        <p>Slim Profile, easy to hold and loaded with cheese.</p>
+        <p>This is the one you have been waiting for</p>
+        <button>Learn More →</button>
+      </div>
+    </section>
+
+
+    <section class="gallery">
+      <h2>Instant Grams</h2>
+      <img src="./Responsive Website!_files/201x201.jpg" alt="">
+      <img src="./Responsive Website!_files/202x202.jpg" alt="">
+      <img src="./Responsive Website!_files/203x203.jpg" alt="">
+      <img src="./Responsive Website!_files/204x204.jpg" alt="">
+      <img src="./Responsive Website!_files/205x205.jpg" alt="">
+      <img src="./Responsive Website!_files/206x206.jpg" alt="">
+      <img src="./Responsive Website!_files/207x207.jpg" alt="">
+      <img src="./Responsive Website!_files/207x208.jpg" alt="">
+      <img src="./Responsive Website!_files/207x209.jpg" alt="">
+      <img src="./Responsive Website!_files/207x210.jpg" alt="">
+    </section>
+  </div>
+
+  <script>
+    const navButton = document.querySelector('button[aria-expanded]');
+
+    function toggleNav({ target }) {
+      const expanded = target.getAttribute('aria-expanded') === 'true' || false;
+      navButton.setAttribute('aria-expanded', !expanded);
+    }
+
+    navButton.addEventListener('click', toggleNav);
+  </script>
+
+
+
+
+</body></html>
